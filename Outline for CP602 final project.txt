@@ -1,0 +1,27 @@
+Project:
+- Abstract(10%)
+- Introduction(10%)
+- Related Studies[5%](where it can be applied and used on), what sources you used to come to ur proposed solution
+    all the code you got and where you got it from
+    
+- Proposed solution[25%](your code in here)
+- Results and Analysis[30%]
+- Conclusion and future works[10%]
+- Bibliography[10%]
+
+
+Programming project :
+
+Abstract - 10 marks
+
+Introduction - 10 marks
+
+Related Studies - 5 marks (explain your research and your sources, research analysis)
+
+Proposed Solution - 25 marks (how you will approach solving the proposal)
+
+Results and Analysis - 30 marks (the programme, flowchart, screenshots etc)
+
+Conclusion - 10 marks 
+
+References - 10 marks
