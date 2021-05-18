@@ -1,0 +1,2 @@
+- Introduction
+    For this project we will be making use of our programming experience in python to demonstrate a simple welding operation, where I welding torch is used to weld the area around the center 
