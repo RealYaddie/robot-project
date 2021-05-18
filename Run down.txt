@@ -1,2 +1,2 @@
 - Introduction
-    For this project we will be making use of our programming experience in python to demonstrate a simple welding operation, where I welding torch is used to weld the area around the center 
+    For this project we will be making use of our programming knowledge in python to program a robot arm in the RoboDK simulation environment to demonstrate a simple welding operation. In this operation a welding torch will be used to weld the area around the center 
