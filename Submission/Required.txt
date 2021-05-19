@@ -1,1 +1,6 @@
--> beautifultable module
+[Software]
+RoboDK -> Robot Development ToolKit
+Python3
+
+[Files]
+Robot Files and tool files which are provided in this zip archive in the Folder named 'RoboDK Files'
