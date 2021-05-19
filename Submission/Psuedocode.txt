@@ -1,0 +1,30 @@
+# Declaring and initializing variables
+from robolink import *
+from robodk import *
+
+RDK = Robolink()
+robot = RDK.Item('ABB IRB 1200-5/0.9')
+
+home = RDK.Item('Home')
+target = RDK.Item('Target 1')
+
+# Getting the Pose of the target position
+poseref = target.Pose()
+
+# Moving the robot
+robot.Move(home)
+robot.Move(target)
+
+vertices = mbox("Enter the number of vertices")
+
+# Calculation to calculate different angles and distance to be moved around the 
+# 'Target' position
+for i in range(vertices+1):
+	ang = i*2*pi/vertices
+	posei = poseref*rotz(ang)*transl(300,0,0)*rotz(-ang)
+	robot.Move(posei)
+
+# Moving the robot back to the 'Target' position and then finally to the
+# 'Home' position.
+robot.Move(target)
+robot.Move(home)
