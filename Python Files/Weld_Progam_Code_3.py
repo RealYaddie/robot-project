@@ -21,7 +21,7 @@ target = RDK.Item('Target 1')
 # from the RoboDK simulation environment
 # in the form of a 4x4 matrix and then we save this to a variable
 # get the pose of the target in the form of a 4x4 matrix <- REMOVE
-poseref = target.Pose()
+reference_pose = target.Pose()
 
 # Using the Robolink module we first move the robot arm to the 'Home' position
 # and then to the 'Target 1' position
@@ -40,8 +40,8 @@ num_vertices = int(num_vertices)
 # make a hexagon shape around the center of the selected target:
 for i in range(num_vertices+1):
     ang = i*2*pi/num_vertices      # angle: 0, 60, 120, ..., 360
-    posei = poseref*rotz(ang)*transl(300, 0, 0)*rotz(-ang)
-    robot.MoveL(posei)
+    vertex_pose = reference_pose*rotz(ang)*transl(300, 0, 0)*rotz(-ang)
+    robot.MoveL(vertex_pose)
 
 # Finally we move the robot arm back to the target position and then to the home
 # position and the program ends here.
