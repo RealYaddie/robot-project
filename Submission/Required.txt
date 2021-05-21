@@ -1,6 +1,7 @@
+Purpose: The purpose of this document is to outline all the software and files that would be needed to recreate how our testing environment was like in the RoboDK simulation environment.
 [Software]
 RoboDK -> Robot Development ToolKit
 Python3
 
 [Files]
-Robot Files and tool files which are provided in this zip archive in the Folder named 'RoboDK Files'
+    Robot Files and tool files which are provided in this zip archive in the Folder named 'RoboDK Files'. The file called 'Welding Operation' contains everything that was used in this project already setup along with the python program code, this is what you would open in the RoboDK simulation environment
